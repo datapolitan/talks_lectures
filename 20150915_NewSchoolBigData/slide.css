@@ -42,6 +42,9 @@ img[alt=img-right-bottom]{
 img[alt=img-center]{
   width:45%;
 }
+img[alt=img-center-small]{
+  width:35%;
+}
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
