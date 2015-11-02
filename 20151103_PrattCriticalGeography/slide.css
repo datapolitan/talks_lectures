@@ -44,11 +44,15 @@ img[alt=img-right-bottom]{
   bottom:10px;
 }
 img[alt=img-center]{
-  width:45%;
+  width:60%;
 }
 img[alt=img-center-small]{
   width:35%;
 }
+img[alt=img-center-medium]{
+  width:50%;
+}
+
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
