@@ -8,6 +8,537 @@
   <body>
     <textarea id="source">
 
+class: center, middle
+![img-center-small](images/pratt_logo.png)
+#Data and the Web
+##Critical Geography and Techniques of Representation
+###Richard Dunks
+###Follow along: http://bit.ly/PrattCriticalGeo
+
+---
+
+class:center,middle
+![img](images/big-data-meme-star-trek.jpg)
+
+---
+
+#Introductions
+###Name
+###Very brief summary of your project
+###What operating system you're using (including the version)
+###One thing you think of when you hear the phrase "open data"
+
+---
+
+#Let's get some downloads started
++ [Python 2.7 via Anaconda](https://www.continuum.io/downloads)
++ [OpenRefine 2.6](https://github.com/OpenRefine/OpenRefine/releases/tag/2.6-beta.1)
++ [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
++ [Sublime Text](http://www.sublimetext.com/2) or [Notepad++](https://notepad-plus-plus.org/download/)
+
+---
+
+#The Problem with Open Data
+
+---
+
+#The Problem with Open Data
+![img-center](https://everythingsimpsons.files.wordpress.com/2010/12/boyscoutz4.jpg)
+
+---
+
+#The Problem with Open Data
+![img-center](https://everythingsimpsons.files.wordpress.com/2010/12/boyscoutz4.jpg)
+##Data is everywhere around us but it's not easy to access and use
+
+---
+
+#Goals for this Morning
+
+---
+
+#Goals for this Morning
++ Empower you to access data on the web (wherever it may be)
++ Discuss open data
++ Demonstrate some key techniques for manually acquiring data
++ Demonstrate how to use an Application Program Interface (API)
++ Introduce OpenRefine for acquring and cleaning data
++ Introduce Python for acquiring and cleaning data
+
+---
+
+class: center, middle
+
+# What is Open Data?
+
+---
+
+class: middle, center
+> Open data is data that can be freely used, shared and built-on by anyone, anywhere, for any purpose
+
+## [Open Knowledge Foundation](http://blog.okfn.org/2013/10/03/defining-open-data/)
+
+---
+
+# Key Features of Open Data
+
+---
+
+# Key Features of Open Data
++ Availability and access
+
+---
+
+# Key Features of Open Data
++ Availability and access
++ Reuse and redistribution
+
+---
+
+# Key Features of Open Data
++ Availability and access
++ Reuse and redistribution
++ Universal participation
+
+---
+
+# Benefits of Open Data
+
+---
+
+# Benefits of Open Data
++ Transparency
+
+---
+
+# Benefits of Open Data
++ Transparency
++ Releasing social and commercial value
+
+---
+
+# Benefits of Open Data
++ Transparency
++ Releasing social and commercial value
++ Participation and engagement
+
+---
+class:center,middle
+# Concerns with Open Data
+
+---
+
+#Reliability
+
+---
+
+#Reliability
++ Veracity of source
+
+---
+
+#Reliability
++ Veracity of source
++ Currency of data
+
+---
+
+#Privacy
+
+---
+
+#Privacy
++ Personally identifiable information (PII)
+
+---
+
+#Privacy
++ Personally identifiable information (PII)
++ Mosaic Effect
+
+---
+
+#Confidentiality
+
+---
+
+#Confidentiality
++ Proprietary information
+
+---
+
+#Confidentiality
++ Proprietary information
++ Trade secrets
+
+---
+
+#Confidentiality
++ Proprietary information
++ Trade secrets
++ Government procurement information
+
+---
+
+#Security
+
+---
+
+#Security
++ Identify sensitive infrastructure
+
+---
+
+#Security
++ Identify sensitive infrastructure
++ Describe methods and procedures
+
+---
+
+class:center,middle
+#Open Data Sources
+##&nbsp;
+
+---
+
+class:center,middle
+#Open Data Sources
+##In order of usability
+
+---
+
+#Open Data Portals
+
+---
+
+#Open Data Portals
++ Organize available data
+
+---
+
+#Open Data Portals
++ Organize available data
++ Provide tools for visualizing, combining, and downloading data
+
+---
+#Open Data Portals
+![img-full](images/nycopen_data.png)
+
+---
+
+#Application Program Interface (API)
+
+---
+
+#Application Program Interface (API)
++ A tool for making a website's data digestible for a computer
+
+---
+
+#Application Program Interface (API)
+![img-full](images/api.png)
+
+---
+
+#Application Program Interface (API)
+![img](images/api_response.png)
+
+---
+
+#Web Scraping
+![img-full](images/web-scraper.png)
+
+[Introduction to web scraping by Thomas Levine](http://thomaslevine.com/dada/web-sites-to-data-tables/)
+---
+
+#Web Scraping
+![img-full](images/databox.jpg)
+
+[Web Scraping with OpenRefine video from Eric Brelsford](http://www.youtube.com/watch?v=KQlCTo0Q71Q)
+
+---
+
+class:middle,center
+
+#If it's online, you can get the data
+##&nbsp;
+
+---
+
+class:middle,center
+
+#If it's online, you can get the data
+##Trust me
+
+---
+
+class:middle,center
+![img-full](http://cdn.arstechnica.net/03-01-2010/data_liberation_sticker.jpg)
+
+Source: http://arstechnica.com/tech-policy/2010/03/why-google-makes-it-easy-to-leave-google/
+
+---
+
+class:center,middle
+![img-full](images/winking-dog-meme.png)
+
+---
+
+class:center,middle
+#Let's Scrape Some Data
+##http://bit.ly/ScrapeExample
+
+---
+
+#Manual Scraping Example
+![img-full](images/man_scraping.png)
+
+---
+
+#Manual Scraping Example
+![img-full](images/man_scraping2.png)
+
+---
+
+#Manual Scraping Example
+![img-full](images/man_scraping3.png)
+
+---
+
+#Manual Scraping Example
+![img-full](images/man_scraping4.png)
+
+---
+
+#Manual Scraping Example
+![img-full](images/man_scraping5.png)
+
+---
+
+#Manual Scraping Example
+![img-full](images/man_scraping6.png)
+
+---
+
+class:middle,center
+#Copy the response
+#Paste into text editor
+##&nbsp;
+
+---
+class:middle,center
+![img-full](images/json_raw.png)
+
+---
+class:middle,center
+#Let's Talk Data Formats
+
+---
+
+class:center
+#Data Formats - JSON 
+###(__J__ava__S__cript __O__bject __N__otation)
+![img-center](images/json.png)
+---
+
+class:center
+#Data Formats - CSV
+
+---
+
+class:center
+#Data Formats - CSV
+![img-full](images/csv.png)
+
+---
+
+class:middle,center
+#How Did I Get JSON into a CSV?
+
+---
+
+class:middle,center
+#Introduction to OpenRefine
+![img-center-medium](images/or_book.png)
+
+https://www.packtpub.com/big-data-and-business-intelligence/using-openrefine 
+
+---
+
+#OpenRefine
+
+---
+
+#OpenRefine
++ In-browser application
+
+---
+
+#OpenRefine
++ In-browser application
++ Used to clean data
+
+---
+
+#OpenRefine
++ In-browser application
++ Used to clean data
++ Converts data from various file types
+
+---
+
+#OpenRefine
++ In-browser application
++ Used to clean data
++ Converts data from various file types
++ Exports data into various formats
+
+---
+
+#OpenRefine - Pros
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
++ Facets are powerful (facet on anything)
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
++ Facets are powerful (facet on anything)
++ Can export to various formats
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
++ Facets are powerful (facet on anything)
++ Can export to various formats
++ Meant specifically to clean data
+
+---
+
+#OpenRefine - Cons
+
+---
+
+#OpenRefine - Cons
++ In browser memory is limited
+
+---
+
+#OpenRefine - Cons
++ In browser memory is limited
++ Only display 50 rows at a time
+
+---
+
+#OpenRefine - Cons
++ In browser memory is limited
++ Only display 50 rows at a time
++ Meant for cleaning data (not displaying it)
+
+---
+
+#Copying Data into OpenRefine
+![img-full](images/or1.png)
+
+---
+
+#Copying Data into OpenRefine
+![img-full](images/or2.png)
+
+---
+
+#Loading JSON Data into OpenRefine
+![img-full](images/or3.png)
+
+---
+
+#Loading JSON Data into OpenRefine
+![img-full](images/or4.png)
+###Mouse-over the desired JSON level
+
+---
+
+#Creating a Project
+![img-full](images/or5.png)
+
+---
+
+#If you get an error about Reconcile service, try this:
+###https://groups.google.com/forum/#!topic/openrefine/IkMN-GLm_nw
+####(Requires Google login)
+
+---
+
+#Renaming a Column
+![img-full](images/or6.png)
+
+---
+
+#Renaming a Column
+
+![img](images/or7.png)
+
+---
+
+#Renaming a Column
+![img-full](images/or8.png)
+
+---
+
+#Export Data as CSV
+![img-full](images/or9.png)
+
+---
+
+class:center,middle
+#Want more? 
+##See Eric Brelsford's [YouTube video](http://www.youtube.com/watch?v=KQlCTo0Q71Q )
+
+---
+
+class:center,middle
+#Let's try that again
+###http://nyti.ms/1DOACSp 
+
+---
+
+class: center, middle
+![img-full](images/nyt1.png)
+
+---
+
+class: center, middle
+![img-full](images/nyt2.png)
+
+---
+
+#CSV Response
+![img-full](images/nyt2_csv.png)
+
+---
+
+class: center, middle
+![img-full](images/nyt3.png)
+
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
