@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>New School for Social Research - Big Data: Consumer Research</title>
+    <title>Pratt Institute - Critical Geography and Techniques of Representation</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="slide.css"/>
   </head>
@@ -11,14 +11,14 @@
 class: center, middle
 ![img-center-small](images/pratt_logo.png)
 #Data and the Web
-##Critical Geography and Techniques of Representation
+##ARCH-851E: Critical Geography and Techniques of Representation
 ###Richard Dunks
-###Follow along: http://bit.ly/PrattCriticalGeo
 
 ---
 
 class:center,middle
 ![img](images/big-data-meme-star-trek.jpg)
+###Follow along: http://bit.ly/PrattCriticalGeo
 
 ---
 
@@ -38,32 +38,163 @@ class:center,middle
 
 ---
 
-#The Problem with Open Data
-
----
-
-#The Problem with Open Data
-![img-center](https://everythingsimpsons.files.wordpress.com/2010/12/boyscoutz4.jpg)
-
----
-
-#The Problem with Open Data
-![img-center](https://everythingsimpsons.files.wordpress.com/2010/12/boyscoutz4.jpg)
-##Data is everywhere around us but it's not easy to access and use
-
----
-
 #Goals for this Morning
 
 ---
 
 #Goals for this Morning
-+ Empower you to access data on the web (wherever it may be)
-+ Discuss open data
-+ Demonstrate some key techniques for manually acquiring data
+
++ Introduce key topics in open data
+
+---
+
+#Goals for this Morning
+
++ Introduce key topics in open data
++ Demonstrate some key techniques acquiring data from the web
+
+---
+
+#Goals for this Morning
+
++ Introduce key topics in open data
++ Demonstrate some key techniques acquiring data from the web
++ Demonstrate how to use an Application Program Interface (API)
+
+---
+
+#Goals for this Morning
+
++ Introduce key topics in open data
++ Demonstrate some key techniques acquiring data from the web
++ Demonstrate how to use an Application Program Interface (API)
++ Introduce OpenRefine for acquring and cleaning data
+
+---
+
+#Goals for this Morning
+
++ Introduce key topics in open data
++ Demonstrate some key techniques acquiring data from the web
 + Demonstrate how to use an Application Program Interface (API)
 + Introduce OpenRefine for acquring and cleaning data
 + Introduce Python for acquiring and cleaning data
+
+---
+
+class:center,middle
+#My Ultimate Purpose:
+#&nbsp;<br>&nbsp;
+
+---
+
+class:center,middle
+#My Ultimate Purpose:
+#Empower you to access data on the web <br> &nbsp;
+---
+
+class:center,middle
+#My Ultimate Purpose:
+#Empower you to access data on the web <br>(wherever it may be)
+
+---
+
+class: center, middle
+
+# Let's Get Started
+
+---
+
+> Facts do not "speak for themselves." They speak for or against competing theories. Facts divorced from theory or visions are mere isolated curiosities.
+
+##-Thomas Sowell *A Conflict of Visions*
+
+---
+
+> We live in a world where there is more and more information, and less and less meaning.
+
+##―Jean Baudrillard *Simulacra and Simulation*
+
+---
+
+class:center,middle
+#Quick History of Open Data
+
+---
+
+#Why do we publish laws?
+[![img-right-small](images/massachusetts_laws.jpg)](https://openlibrary.org/books/OL6574549M/The_colonial_laws_of_Massachusetts)
+
+[![img-left](images/peking-gazette.png)](http://bs.dayabook.com/the-peking-gazette-for-1873)
+
+<a title="Asb at the German language Wikipedia [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AGortys_law_inscription.jpg" target="_blank"><img alt="img-left-bottom" src="images/greek_law.jpg"/></a>
+
+---
+
+class:center,middle
+#What good are laws if we don't know how they're implemented?
+#&nbsp;
+
+---
+
+class:center,middle
+#What good are laws if we don't know how they're implemented?
+#Which is what data tells us
+
+---
+
+class:center,middle
+![img](images/iquantny_fireHydrant.png)
+Source: [Meet the Fire Hydrant that Unfairly Nets NYC $25,000 a Year](http://iquantny.tumblr.com/post/83696310037/meet-the-fire-hydrant-that-unfairly-nets-nyc)
+
+---
+class:center,middle
+![img-full](images/iquantny_fireHydrant2.png)
+Source: [Success: How NYC Open Data and Reddit Saved New Yorkers Over $55,000 a Year](http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new)
+
+---
+class:center,middle
+
+#Modern History of Open Data
+![img-full](images/od_timeline.png)
+
+Source: http://fcw.com/articles/2014/06/09/exec-tech-brief-history-of-open-data.aspx?admgarea=TC_ExecTech
+
+---
+
+#Contributors to the Open Data Movement
+
+---
+
+#Contributors to the Open Data Movement
++ Open science
+
+---
+
+#Contributors to the Open Data Movement
++ Open science
++ Open-source software
+
+---
+class:center,middle
+![img-full](images/the-open-data-movement.jpg)
+<p>Source: <a target='_blank' href='http://www.paulvanslembrouck.com?utm_source=visually_embed'>ptvan</a></p>
+
+
+---
+class:center
+#The Problem with Open Data
+
+---
+class:center
+#The Problem with Open Data
+![img-center](https://everythingsimpsons.files.wordpress.com/2010/12/boyscoutz4.jpg)
+
+---
+class:center
+#The Problem with Open Data
+![img-center](https://everythingsimpsons.files.wordpress.com/2010/12/boyscoutz4.jpg)
+##Data is everywhere around us<br>But it's not easy to access and use
 
 ---
 
@@ -223,6 +354,7 @@ class:center,middle
 ---
 #Open Data Portals
 ![img-full](images/nycopen_data.png)
+###https://data.cityofnewyork.us/data
 
 ---
 
@@ -236,8 +368,21 @@ class:center,middle
 ---
 
 #Application Program Interface (API)
-![img-full](images/api.png)
++ A tool for making a website's data digestible for a computer
++ A translation layer between computer systems to allow the exchange of information
 
+---
+
+#Application Program Interface (API)
++ A tool for making a website's data digestible for a computer
++ A translation layer between computer systems to allow the exchange of information
++ Makes data easier to work with
+
+---
+
+#Application Program Interface (API)
+![img-full](images/api.png)
+###Source: https://zapier.com/learn/apis/
 ---
 
 #Application Program Interface (API)
