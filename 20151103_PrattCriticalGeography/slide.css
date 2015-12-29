@@ -52,6 +52,11 @@ img[alt=img-center-small]{
 img[alt=img-center-medium]{
   width:50%;
 }
+img[alt=Creative-Commons-License]{
+  width:10%;
+  float:right;
+  display: inline;
+}
 
 blockquote {
   background: #f9f9f9;
@@ -112,3 +117,10 @@ pre {
   pre code, pre tt {
     background-color: transparent;
     border: none; }
+
+p.footer{
+  position:fixed;
+  left:10px;
+  bottom:0px;
+  font-size: 0.6em;
+}
