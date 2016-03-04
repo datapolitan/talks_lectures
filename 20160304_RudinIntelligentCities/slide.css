@@ -76,6 +76,12 @@ img[alt=img-center-small]{
 img[alt=img-center-25]{
   width:25%;
 }
+img[alt=img-center-30]{
+  width:30%;
+}
+img[alt=img-center-35]{
+  width:35%;
+}
 img[alt=img-center-45]{
   width:45%;
 }
