@@ -97,6 +97,12 @@ img[alt=Creative-Commons-License]{
   display: inline;
 }
 
+iframe {
+  display:block;
+  margin: 0 auto;
+  vertical-align: left;
+}
+
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
