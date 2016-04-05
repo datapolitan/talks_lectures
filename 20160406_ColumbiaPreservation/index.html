@@ -37,10 +37,13 @@ class: center
 #Goals for this evening
 --
 
-+ Review key topics in mapping
++ Quickly review of different types of maps and discuss their use
 --
 
 + Provide a survey of common mapping tools
+--
+
++ Discuss the difference between open-source and proprietary software as it relates to GIS and mapping
 --
 
 + Practice using an online, interactive webmapping service to create a simple interactive map using NYC Open Data
@@ -187,23 +190,92 @@ Source: [NYC Open Data Portal 311 Service Requests](https://data.cityofnewyork.u
 
 ##But this isn't a sales session, merely an opportunity to share the technology with Columbia students
 
+
 ---
+
+[![img-center](images/hess.png)](http://chriswhong.com/open-data/in-search-of-hess-triangle-part-1/)
+
+---
+
 class:center,middle
-#So Let's Create a Map
+#Let's Map This in CartoDB
+---
+
+#0. Getting Set-up
++ Go to http://columbialibraries.cartodb.com/signup (use an alias if there's already an account with your name)
++ Register for an account with your `columbia.edu` account
 
 ---
 
-#Getting Set-up
-1. Go to https://cartodb.com
-2. Register for an account
-3. Find the exercise data (311_Noise_20150101_20150318.csv)
-4. Drag and drop it into your dashboard
+#1. Get current tax lots for area
+
+[![img-full](images/plutoplus1.png)](http://chriswhong.github.io/plutoplus/#)
+---
+
+#1. Get current tax lots for area
+![img-right-30](images/plutoplus2.png)
+![img-left-70](images/plutoplus3.png)
+---
+
+#1. Get current tax lots for area
+![img-center](images/plutoplus4_box.png)
+---
+
+#1. Get current tax lots for area
+![img](images/plutoplus5.png)
+---
+
+#2. Get a historical map
+[![img-full](images/nypl_mw.png)](http://maps.nypl.org/warper/)
 
 ---
 
-#An example of what you can do
-<iframe width="100%" height="480" frameborder="0" src="https://richard-datapolitan.cartodb.com/viz/bb1e6638-b324-11e5-bf15-0ef7f98ade21/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-<!-- ![img-full](images/cdb2.png) -->
+#2. Get a historical map
+[![img-full](images/nypl_mw2.png)](http://maps.nypl.org/warper/maps/8197)
+
+###http://maps.nypl.org/warper/maps/8197
+
+--
+
+##Click on the Export tab
+
+---
+
+#2. Get a historical map
+![img-full](images/nypl_mw3_box.png)
+
+--
+
+##Copy this link
+---
+
+#3. Add map to CartoDB
+
+![img-center-80](images/background1_box.png)
+
+---
+
+#3. Add map to CartoDB
+![img-center-80](images/background2.png)
+
+---
+
+#4. Style and add layers
++ [Subway routes](data/nyct_subway_routes_20150914.zip)
++ [Subway stations](data/nyct_subway_stations_20150914.zip)
++ Borough outlines (CartoDB already has these in their data library)
+
+---
+
+class:center,middle
+<iframe width="100%" height="480" frameborder="0" src="https://columbialibraries.cartodb.
+com/u/rad2184/viz/8dfa8996-fb4c-11e5-b2d1-0ef24382571b/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+---
+
+class:center,middle
+![img-full](images/excited.gif)
+
 ---
 
 #For more information:
