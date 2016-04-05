@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open Source Mapping - NYC DCAS Expo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="slide.css"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+layout:true
+
+<p class="footer">
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Web Mapping for Preservationists</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+</p>
+
+---
+
+class: center
+
+
+
+#Web Mapping for Preservationists
+###Richard Dunks
+##http://bit.ly/OpenSourceMapping
+
+---
+
+#Introductions
++ Name
++ Agency
++ One reason you're in this class today
+
+---
+
+#Goals for this afternoon
+--
+
++ Review key topics in mapping
+--
+
++ Provide a survey of common mapping tools
+--
+
++ Practice using an online, interactive webmapping service to create a simple interactive map using NYC Open Data
+
+
+---
+
+class: center, middle
+#Why Do We Create Maps?
+
+---
+
+class: center, middle
+#A Quick (Re-)Introduction to Maps
+
+---
+
+#Spatial Information
+![img-full](images/layers.png)
+
+---
+
+#Vector
+
+--
+
++ X and Y coordinates
+--
+
++ Possibly a Z coordinate as well
+
+--
+
+![img-center-small](images/nyc_vector.PNG)
+######By adapted by M.Minderhoud [CC BY-SA 2.5](http://creativecommons.org/licenses/by-sa/2.5), via Wikimedia Commons. [File available here](https://commons.wikimedia.org/wiki/File%3ANeighbourhoods_New_York_City_Map.PNG)
+---
+
+class: center, middle
+#Vector Data Types
+
+---
+
+![img](images/qgis_point.png)
+
+#####Source: http://docs.qgis.org/testing/en/docs/gentle_gis_introduction/vector_data.html 
+
+---
+
+![img](images/qgis_line.png)
+
+#####Source: http://docs.qgis.org/testing/en/docs/gentle_gis_introduction/vector_data.html 
+
+---
+
+![img](images/qgis_polygon.png)
+
+#####Source: http://docs.qgis.org/testing/en/docs/gentle_gis_introduction/vector_data.html 
+
+---
+
+#Raster
+
+--
+
++ Grid of values
+
+--
+
+![img](images/raster.png)
+[Source](https://grass.osgeo.org/grass70/manuals/d.shade.html)
+
+---
+
+#Spatial Information
+
+![img](images/spatial_example.png)
+
+---
+
+#Thematic Maps
+
+--
+
++ Focuses on a specific theme or subject area
+--
+
++ Features on the map represent the phenomenon being mapped
+--
+
++ Spatial features used for reference
+---
+![img-full](images/thematic1.png)
+#####Source: http://www.usna.usda.gov/Hardzone/ushzmap.html 
+
+---
+
+#Dorling Cartogram – Obesity by State
+![img-full](images/darling.png)
+#####Source: http://homes.cs.washington.edu/~jheer//files/zoo/ 
+
+---
+
+#General Reference Maps
+
+--
+
++ Show important physical features of an area
+--
+
++ Include natural and man-made features
+--
+
++ Usually meant to help aid in the navigation or discovery of locations
+--
+
++ Usually fairly simple
+--
+
++ Can be stylized based on the intended audience (tourists vs locals)
+
+---
+
+![img-full](images/reference.png)
+
+---
+
+#The Tools
+
+![img-full](images/gis.png)
+
+---
+
+#ArcGIS
+
+![img-center-large](images/arcgis.jpg)
+[Source](http://www.esri.com/news/arcuser/1012/a-workflow-for-creating-and-sharing-maps.html)
+
+---
+
+#Google Earth
+
+![img-full](images/google_earth.png)
+
+---
+
+#Google Fusion Tables
+<iframe width="100%" height="430" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col54%2C+col55+from+1dNtdy7FuBBZ2qTxX7jgZ5Dig8n96oxRrWFjuhYpJ+where+col3+%3E%3D+0+and+col3+%3C%3D+4+and+col26+%3D+2+limit+1000&amp;viz=HEATMAP&amp;h=true&amp;lat=40.844685&amp;lng=-73.915349&amp;t=1&amp;z=12&amp;l=col54&amp;y=2&amp;tmplt=2&amp;hmd=true&amp;hmg=%2366ff0000%2C%2393ff00ff%2C%23c1ff00ff%2C%23eeff00ff%2C%23f4e300ff%2C%23f4e300ff%2C%23f9c600ff%2C%23ffaa00ff%2C%23ff7100ff%2C%23ff3900ff%2C%23ff0000ff&amp;hmo=0.6&amp;hmr=26&amp;hmw=0&amp;hml=TWO_COL_LAT_LNG"></iframe>
+Source: [NYC Open Data 311 Noise Complaints, 1 Jan - 20 May 2014, Between Midnight and 4 am in the Bronx](https://www.google.com/fusiontables/DataSource?docid=1dNtdy7FuBBZ2qTxX7jgZ5Dig8n96oxRrWFjuhYpJ#map:id=3)
+
+---
+
+#Proprietary vs Open Source Software
+
+--
+
++ Proprietary software source code is owned by an individual or an organization and tightly restricted (usually for profit)
+--
+
++ Open source software source code is freely available to anyone for download, alteration, and republishing
+
+---
+
+#Proprietary vs Open Source Software
+
+--
+
++ Proprietary software code is generally supported by a team of paid professionals working for the organization that owns the code
+--
+
++ Open source software code is generally supported by a mix of paid and volunteer professionals that contribute changes back to the community
+---
+
+#Proprietary vs Open Source Software
+
+--
+
++ Proprietary software is often available only by purchasing a license
+--
+
++ Open source software is free to use though there generally a license that specifies the restrictions (if any) on its use and reuse
+--
+
++ Companies using open source software may charge for the use of the software through their proprietary implementations or via their infrastructure
+
+---
+
+class:center,middle
+#Examples of Open Source Mapping Software
+
+---
+
+#[QGIS](http://www.qgis.org/)
+
+![img-full](images/qgis.png)
+Source: [NYC Open Data Portal 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9), DOT Responsible Agency 1 January - 30 June 2015
+
+---
+
+#[CartoDB](https://cartodb.com/)
+<iframe width="100%" height="480" frameborder="0" src="https://richard-datapolitan.cartodb.com/viz/c0d4f39e-962e-11e4-9b3b-0e9d821ea90d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+<!-- ![img-full](images/cdb1.png) -->
+
+---
+
+#Disclaimer
+--
+
+##I'm a [CartoDB Partner](https://cartodb.com/partners/)
+--
+
+##But this isn't a sales session, merely an opportunity to share the technology with NYC employees
+
+---
+class:center,middle
+#So Let's Create a Map
+
+---
+
+#Getting Set-up
+1. Go to https://cartodb.com
+2. Register for an account
+3. Find the exercise data (311_Noise_20150101_20150318.csv)
+4. Drag and drop it into your dashboard
+
+---
+
+#An example of what you can do
+<iframe width="100%" height="480" frameborder="0" src="https://richard-datapolitan.cartodb.com/viz/bb1e6638-b324-11e5-bf15-0ef7f98ade21/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<!-- ![img-full](images/cdb2.png) -->
+---
+
+#For more information:
++ QGIS: http://www.qgis.org/en/docs/index.html
++ CartoDB: http://academy.cartodb.com/
++ My data analytics classes and mapping: https://github.com/datapolitan/Data_Analytics_Classes
+
+---
+
+#Thank You
++ [richard@datapolitan.com](mailto:richard@datapolitan.com)
++ http://blog.datapolitan.com
++ [@rdunks1](https://twitter.com/rdunks1)/[@datapolitan](https://twitter.com/Datapolitan)
+
+
+   </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create(
+      // {
+      //   slideNumberFormat: ""}
+        );
+    </script>
+  </body>
+</html>
