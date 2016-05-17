@@ -29,7 +29,8 @@ class: center
 
 #Introductions
 + Name
-+ Program
++ Program/Major at John Jay
++ Which organization you interned with (if applicable)
 + One thing you'd like to get out of the workshop today
 
 ---
@@ -297,12 +298,33 @@ class:center,middle
 
 ---
 
+#Exploratory Data Analysis
+--
 
-#So Let's Work with Some Open Data
++ Goal -> Discover patterns in the data
+--
+
++ Understand the context
+--
+
++ Summarize fields
+--
+
++ Use graphical representations of the data
+--
+
++ Explore outliers
+
+--
+
+###Tukey, J.W. (1977). Exploratory data analysis. Reading, MA: Addison-Wesley.
 
 ---
 
 #So Let's Work with Some Open Data
+
+--
+
 ![img-full](images/excited.gif)
 
 ---
@@ -313,14 +335,81 @@ class:center,middle
 ---
 
 class:center,middle
-![img-center-50](images/311_hpd_filter.png)
+![img-center-40](images/311_hpd_filter_queens.png)
 
 ---
 
-#Exercise
-##Looking at the type, frequency, and location of noise compliants:
-+ Find one thing that you expected in the data
-+ Find one thing you found surprising in the data
+class:center,middle
+#Now let's look at another dataset
+###https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Violations/wvxf-dwi5
+---
+
+class:center,middle
+![img-center-50](images/housing_violations.png)
+
+---
+
+#How would we know to filter by these?
+
+--
+
+![img-center-75](images/hmc.png)
+#####http://www1.nyc.gov/assets/buildings/pdf/HousingMaintenanceCode.pdf
+
+---
+
+class:center,middle
+#You all knew that, right?
+
+---
+
+#What are the problems with the violations data?
+--
+
++ Very few complaints result in violation
+--
+
++ Can't track complaints to violations
+--
+ _(at least not easily)_
+--
+
++ Not clear from data when housing law is in effect
+--
+ _(on warmer days, housing law isn't in effect)_
+--
+
++ No locations (latitude, longitude)
+
+---
+
+#But when you put it all together...
+
+---
+
+#Wrap-up
+--
+
++ Value of open data
+--
+
++ Concerns with open data
+--
+
++ The history of open data in NYC
+--
+
++ Explored an example of open data in NYC
+
+---
+
+#Final Thoughts
+--
+
++ Access to open data allows organizations to identify problems in their communities and advocate for positive changes
+--
+
++ Not all open data is created equal and some datasets can take more time and effort to understand than others
 
 ---
 
@@ -330,10 +419,20 @@ class:center,middle
 
 ---
 
+class:middle,center
 #Thank You
+
+---
+
+##Richard Dunks
 + [richard@datapolitan.com](mailto:richard@datapolitan.com)
 + http://blog.datapolitan.com
 + [@rdunks1](https://twitter.com/rdunks1)/[@datapolitan](https://twitter.com/Datapolitan)
+
+##Noelle Francois
++ [noelle@heatseek.org](mailto:noelle@heatseek.org)
++ http://heatseek.org
++ [@heatseeknyc](https://twitter/com/@heatseeknyc)
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
