@@ -1,3 +1,3 @@
-Class given as part of the [2016 NYC DCAS Expo](http://www.nyc.gov/html/dcas/downloads/pdf/misc/expo2016.pdf). [Slides are available online](http://www.datapolitan.com/talks_lectures/20160108_OpenDataExpo).
+Workshop on NYC open data given to students in the CUNY John Jay College of Criminal Justice [ISP 392/393: Interdisciplinary Internship - Housing & Community Problem Solving](http://www.jjay.cuny.edu/undergraduate-academic-internship-courses).
 
-![img](images/expo2016_14.jpg)
+Slides are [available here](http://bit.ly/jj-open-data).
